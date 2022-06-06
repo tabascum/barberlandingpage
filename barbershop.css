@@ -1,0 +1,123 @@
+:root {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 120vh;
+    background: fixed no-repeat url(images/razor.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  body {
+    margin: 0vh;
+    padding: -1vh;
+  }
+
+  header {
+    height: 10 vh;
+    padding-top: 2vh;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1vh;
+    margin-right: 5vh;
+    justify-content: right;
+    list-style-type: none;
+  }
+ 
+  .buttons li a {
+    padding: 1vh;
+    border-color: #92552c;
+    border-style: solid;
+    border-radius: 1vh;
+    color: #FEFAE0;
+    font-size: 2.2vh;
+    text-decoration: none;
+  }
+
+  .buttons li a:hover {
+    background-color: #FEFAE0;
+    color: #92552c;
+    box-shadow: 0.5vh 0.5vh 0.5vh rgb(176, 173, 173);
+  }
+
+  .about,
+  .about-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh;
+  }
+  
+  .img {
+    height: 35vh;
+  }
+
+  .about-info {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.7vh;
+  }
+
+  .services-section,
+  .services {
+    display: flex;
+    flex-direction: column;
+    background-color: #FEFAE0;
+  }
+
+  .services-list {
+    display: flex;
+    justify-content: space-around;
+    color: #92552c;
+    list-style-type: none;
+  }
+
+  .services-list a {
+    color: #92552c;
+    padding: 1vh 2.5vh;
+    border-radius: 1vh;
+    font-size: 2.2vh;
+    text-decoration: none;
+  }
+
+  .services-list a:hover {
+    background-color: #f0a563;
+    color: #FEFAE0;
+    box-shadow: 0.5vh 0.5vh 0.5vh rgb(176, 173, 173)
+  }
+
+  .marcacoes {
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .marcacoes-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .datetime {
+    height: 5vh;
+    background-color: #FEFAE0;
+    border-radius: 1vh;
+  }
+
+  .contact {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    height: 10vh;
+    background: #BC6C25;
+    color: #FEFAE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
