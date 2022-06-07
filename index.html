@@ -10,21 +10,19 @@
 <body>
     <header>
         <div class="header">
-            <ul class="buttons">
-                <li><a href="#">Sobre a Razor</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Marcações</a></li>
-                <div>
-                <li><a href="#">Contactos</a></li>
-                </div>
-            </ul>
+            <div class="buttons">
+                <button class="btnone"><a href="#">Sobre a Razor</a></button>
+                <button class="btntwo"><a href="#">Serviços</a></button>
+                <button class="btnthree"><a href="#">Marcações</a></button>
+                <button class="btnfour"><a href="#">Contactos</a></button>
+            </div>
         </div>
     </header>
 
     <section class="about">
         <img class="img" src="images/razor_logo.svg" alt="">
         <div class="about-info">
-            <p>A Barbearia Razor é propriedade do barbeiro Bernardo Massas, certificado desde 2016 pela Escola de Formação de Barbeiro e Cabeleireiro Magic Hair &#153. Reconhecido pela maestria na arte de bem cortar o cabelo, decide, em 2017, depois da passagem por outros projetos de barbearia, lançar a sua própria marca e com isto abrir este espaço.</p>
+            <p>A Barbearia Razor é propriedade do barbeiro Bernardo Massas, certificado desde 2016 pela Escola de Formação de Barbeiro e Cabeleireiro Magic Hair &#153. Reconhecido na maestria da arte de bem cortar o cabelo, e depois da passagem por outros projetos de barbearia, lança a sua própria marca em 2017 e com isto abre este espaço.</p>
             <p>Aficionado da arte da barbearia, tornou-se em 2018 num Reuzel &#153 Scumbassador Oficial.</p>
         </div>
     </section>
@@ -32,26 +30,52 @@
     <section class="services-section">
         <div class="services">
             <ul class="services-list">
+                <img src="images/razor.png" alt="">
                 <li class="barba"><a href="#">Barba</a></li>
+                <!------<a href="https://www.flaticon.com/free-icons/barber" title="barber icons">Barber icons created by surang - Flaticon</a>---->
+                <img src="images/scissors.png" alt="">
                 <li class="corte"><a href="#">Corte</a></li>
-                <li class="color"><a href="#">Coloração</a></li>
+                <!------<a href="https://www.flaticon.com/free-icons/scissor" title="scissor icons">Scissor icons created by Freepik - Flaticon</a>-->
+                <img src="images/hair-dye-brush.png" alt="">
+                <li class="color"><a href="#">Cor</a></li>
+                <!------<a href="https://www.flaticon.com/free-icons/hair-care" title="hair care icons">Hair care icons created by Talha Dogar - Flaticon</a>-->
+                <img src="images/shopping-bag.png" alt="">
+                <li class="shop"><a href="#">Loja</a></li>
+                <!------<a href="https://www.flaticon.com/free-icons/online-shop" title="online shop icons">Online shop icons created by Freepik - Flaticon</a>-->
             </ul>
         </div>
     </section>
 
-    <section class="marcacoes">
-        <div>
-        <h2>Faz já a tua marcação</h3>
-            <div class="marcacoes-section">
-                <input class="datetime" type="datetime-local">
-            </div>
+    <section class="agenda">
+        <div class="agenda-header">
+            <h2>Faz já a tua marcação</h3>
+        </div>
+        <div class="agenda-date">
+            <input class="datetime" type="datetime-local">
+            <button class="submit" href="#">agendar</button>
         </div>
     </section>
 
     <section class="contact">
-        <div class="contact-p">
-            <p>Telefone: 21 802 1081</p>
-            <p>Onde estamos: Av. dos Bons Amigos Nº66A, 2735-521 Agualva-Cacém</p>
+        <ul class="social-media">
+            <li class="card"><a href="https://www.facebook.com/barbeariarazorcacem/"><img src="images/facebook.png" alt=""></a></li>
+            <!-----<a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Freepik - Flaticon</a>-->
+            <li class="card"><a href="https://instagram.com/razorbarbearia/"><img src="images/instagram.png" alt=""></a></li>
+            <!-----<a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Freepik - Flaticon</a>-->
+            <li class="card "><a href=""><img src="images/whatsapp.png" alt=""></a></li>
+            <!-----<a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons">Whatsapp icons created by Freepik - Flaticon</a>-->
+        </ul>
+
+    </section>
+
+    <section class="location">
+        <div>
+            <h3>Onde Estamos</h3>
+        </div>
+       <div>
+            <map name="Onde Estamos"><iframe height="150px" width="400px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.69919386366!2d-9.294831282556151!3d38.7706028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ece1108a2f899%3A0x5e49428f10051d45!2sBarbearia%20Razor!5e0!3m2!1spt-PT!2spt!4v1654624933186!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></map>
+        </div>
+            
     </section>
 
     <footer>

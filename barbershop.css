@@ -4,6 +4,7 @@
     padding: 0;
     min-height: 100vh;
     background: fixed no-repeat url(images/razor.jpg);
+    /*the background image belongs to his owner, Bernardo Massas, I do not own any rights on the images*/
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -22,27 +23,31 @@
   }
   
   .buttons {
-    display: flex;
+    display: flex;;
     gap: 1vh;
     margin-right: 5vh;
     justify-content: right;
-    list-style-type: none;
   }
  
-  .buttons li a {
+  .buttons button{
     padding: 1vh;
     border-color: #92552c;
     border-style: solid;
     border-radius: 1vh;
-    color: #FEFAE0;
+    background-color: #fefae0ab;
     font-size: 2.2vh;
     text-decoration: none;
   }
 
-  .buttons li a:hover {
-    background-color: #FEFAE0;
-    color: #92552c;
+  .buttons button:hover {
+    background-color: #fefae054;
+    color: #fefae0;
     box-shadow: 0.5vh 0.5vh 0.5vh rgb(176, 173, 173);
+  }
+
+  .buttons a {
+    color: #8b3f0c;
+    text-decoration: none;
   }
 
   .about,
@@ -58,7 +63,6 @@
 
   .about-info {
     flex-direction: column;
-    justify-content: center;
     font-size: 2.7vh;
   }
 
@@ -66,12 +70,13 @@
   .services {
     display: flex;
     flex-direction: column;
-    background-color: #FEFAE0;
-  }
+    background-color: #fefae054;
+    }
 
   .services-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     color: #92552c;
     list-style-type: none;
   }
@@ -85,44 +90,86 @@
   }
 
   .services-list a:hover {
-    background-color: #f0a563;
-    color: #FEFAE0;
-    box-shadow: 0.5vh 0.5vh 0.5vh rgb(176, 173, 173)
+    box-shadow: 0.5vh 0.5vh 0.5vh rgba(176, 173, 173, 0.725)
   }
 
-  .marcacoes {
-    height: 18vh;
-    display: flex;
-    justify-content: center;
-  }
-
-  .marcacoes-section {
-    display: flex;
-    justify-content: center;
-  }
-
-  .datetime {
+  .services-list img {
     height: 5vh;
+    align-items: center;
+  }
+
+  .agenda {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  .agenda-header,
+  .agenda-date {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .agenda-header {
+    color: #FEFAE0;
+    margin-right: 2vh;
+  }
+
+  .datetime,
+  .submit {
+    height: 4vh;
     background-color: #FEFAE0;
     border-radius: 1vh;
   }
 
-  .contact {
-    height: 12vh;
+  .submit {
+    height: 4.6vh;
+    margin-left: 1vh;
+  }
+
+  .submit:hover {
+    box-shadow: 0.5vh 0.5vh 0.5vh #bc6b2573;
+  }
+
+  .location {
+    background-color: #fefae054;
     display: flex;
+    padding-bottom: 5vh;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 2.5vh;
     color: #FEFAE0;
   }
 
-  .contact-p {
-    gap: 2vh;
+  .contact {
+    height: 20vh;
+    background-color: #8b3f0c;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact img {
+    height: 10vh;
+  }
+
+  .social-media {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    list-style-type: none;
+    gap: 5vh;
+  }
+
+  .card {
+    padding: 3vh;
+    border-radius: 0.5vh;
   }
 
   footer {
     height: 10vh;
-    background: #BC6C25;
+    background: #BC6C25ab;
     color: #FEFAE0;
     display: flex;
     justify-content: center;
