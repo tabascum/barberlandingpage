@@ -2,7 +2,7 @@
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    min-height: 50em;
     background: fixed no-repeat url(images/razor.jpg);
     /*the background image belongs to his owner, Bernardo Massas, I do not own any rights on the images*/
     background-size: cover;
@@ -11,12 +11,12 @@
   }
 
   body {
-    margin: 0vh;
-    padding: -1vh;
+    margin: 0em;
+    padding: -1em;
   }
 
   header {
-    height: 10 vh;
+    height: 10vh;
     padding-top: 2vh;
     display: flex;
     justify-content: end;
@@ -45,7 +45,8 @@
     box-shadow: 0.5vh 0.5vh 0.5vh rgb(176, 173, 173);
   }
 
-  .buttons a {
+  .buttons a,
+  .myBtn {
     color: #8b3f0c;
     text-decoration: none;
   }
@@ -98,39 +99,8 @@
     align-items: center;
   }
 
-  .agenda {
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-
-  .agenda-header,
-  .agenda-date {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .agenda-header {
-    color: #FEFAE0;
-    margin-right: 2vh;
-  }
-
-  .datetime,
-  .submit {
-    height: 4vh;
-    background-color: #FEFAE0;
-    border-radius: 1vh;
-  }
-
-  .submit {
-    height: 4.6vh;
-    margin-left: 1vh;
-  }
-
-  .submit:hover {
-    box-shadow: 0.5vh 0.5vh 0.5vh #bc6b2573;
+  .empty {
+    padding: 15vh;
   }
 
   .location {
