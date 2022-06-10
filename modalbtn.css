@@ -31,7 +31,7 @@
   
   .close:hover,
   .close:focus {
-    color: black;
+    color: #FEFAE0;
     text-decoration: none;
     cursor: pointer;
   }
@@ -41,7 +41,6 @@
 .form {
     position: fixed;
     background-color: #281a11cf;
-    border-radius: 20px;
     box-sizing: border-box;
     height: 500px;
     padding: 20px;
@@ -145,7 +144,7 @@
     border-radius: 12px;
     border: 0;
     box-sizing: border-box;
-    color: #92552c;
+    color: #  281a11cf;
     cursor: pointer;
     font-size: 18px;
     height: 50px;
